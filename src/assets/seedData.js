@@ -1,0 +1,58 @@
+const data = {
+    linkedin: 'Anh Le',
+    linkedinURL: 'https://www.linkedin.com/in/anh-le-b28014230/',
+    github: 'jackanhle',
+    githubURL: 'https://github.com/jackanhle',
+    stackoverflow: 'jackanhle',
+    stackoverflowURL: 'https://stackoverflow.com/',
+}
+const projects = [{
+    id: 1,
+    title:'Book-Box',
+    image: require('./images/book.png'),
+    imageAlt:'Book-Box',
+    github:'https://github.com/jamesthomasbester/Book_Box',
+    link:'https://handlebars-book-box.herokuapp.com/',
+},
+{
+    id: 2,
+    title:'IntelliRecipe',
+    image: require('./images/intelli.png'),
+    imageAlt:'IntellieRecipe',
+    github:'https://github.com/RajNori/IntelliRecipe',
+    link:'https://rajnori.github.io/IntelliRecipe/',
+},
+{
+    id: 3,
+    title:'Code quiz',
+    image: require('./images/quiz.png'),
+    imageAlt:'Code quiz',
+    github:' https://github.com/jackanhle/java-quiz-code',
+    link:'https://jackanhle.github.io/java-quiz-code/',
+},
+{
+    id: 1,
+    title:'Weather Dashboard',
+    image: require('./images/weather.png'),
+    imageAlt:'Weather Dashboard',
+    github:' https://github.com/jackanhle/Weather-dashboard',
+    link:' https://jackanhle.github.io/Weather-dashboard/',
+},
+{
+    id: 1,
+    title:'Note Taker',
+    image: require('./images/note.png'),
+    imageAlt:'Note taker',
+    github:' https://github.com/jackanhle/note-taker-express',
+    link:' https://powerful-fortress-05716.herokuapp.com/notes',
+},
+{
+    id: 1,
+    title:'Word scheduler',
+    image: require('./images/scheduler.png'),
+    imageAlt:'Work scheduler',
+    github:'https://github.com/jackanhle/work-schedule',
+    link:' https://jackanhle.github.io/work-schedule/',
+},
+]
+export { projects, data };

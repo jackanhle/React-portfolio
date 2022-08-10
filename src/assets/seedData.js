@@ -31,7 +31,7 @@ const projects = [{
     link:'https://jackanhle.github.io/java-quiz-code/',
 },
 {
-    id: 1,
+    id: 4,
     title:'Weather Dashboard',
     image: require('./images/weather.png'),
     imageAlt:'Weather Dashboard',
@@ -39,7 +39,7 @@ const projects = [{
     link:' https://jackanhle.github.io/Weather-dashboard/',
 },
 {
-    id: 1,
+    id: 5,
     title:'Note Taker',
     image: require('./images/note.png'),
     imageAlt:'Note taker',
@@ -47,12 +47,20 @@ const projects = [{
     link:' https://powerful-fortress-05716.herokuapp.com/notes',
 },
 {
-    id: 1,
+    id: 6,
     title:'Word scheduler',
     image: require('./images/scheduler.png'),
     imageAlt:'Work scheduler',
     github:'https://github.com/jackanhle/work-schedule',
     link:' https://jackanhle.github.io/work-schedule/',
+},
+{
+    id: 7,
+    title:'Aroma Mocha',
+    image: require('./images/mocha.png'),
+    imageAlt:'Aroma Mocha',
+    github:'https://github.com/jackanhle/Aroma-Mocha',
+    link:'https://lit-crag-66036.herokuapp.com/',
 },
 ]
 export { projects, data };
